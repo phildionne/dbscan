@@ -2,14 +2,6 @@
 
 require 'distance_measures'
 
-require 'geocoder'
-
-class Array
-	def haversine_distance2(n)
-		return Geocoder::Calculations::distance_between( self, n )
-	end
-end
-
 module DBSCAN
 
 	class Clusterer

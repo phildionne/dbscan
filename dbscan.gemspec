@@ -8,5 +8,4 @@ Gem::Specification.new do |gem|
 	gem.homepage = 'https://github.com/matiasinsaurralde/dbscan'
 	gem.files = ['lib/dbscan.rb']
 	gem.add_runtime_dependency 'distance_measures'
-	gem.add_runtime_dependency 'geocoder'
 end
